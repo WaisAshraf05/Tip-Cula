@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+
+body {
+    background-color: #F5F5F5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 550px;
+    width: 600px;
+    border: 2px solid #cccccc;
+    padding: 17px;
+    box-shadow: 0px 0px 7px grey;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    margin: 13px
+}
+
+label {
+    font-size: 22px;
+    margin: 15px 5px;
+}
+
+#billamount {
+    font-size: 22px;
+    text-align: center;
+    margin: 15px 0px;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 7px;
+    border: 2px solid #CCCCCC;
+    padding: 9px 3px;
+}
+
+#tipForm {
+    display: block;
+    align-items: center;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+#tipForm input {
+    margin: 10px;
+    cursor: pointer;
+}
+input:focus, button:focus {
+  outline: 2px solid #4CAF50;
+}
+
+#tipForm p {
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-size: 26px;
+    border: none;
+    box-shadow: 0px 0px 7px rgb(248, 246, 246);
+    margin: 8px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+button:hover {
+    color: #807d7d;
+    background-color: #66e26b;
+}
+
+.show {
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 8px grey;
+    border-radius: 10px;
+    width: 90%;
+    height: 100px;
+    margin: 17px;
+    color: #333333;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 26px;
+    padding: 15px;
+}
+
+.footer {
+    /* border: 1px solid black; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer i {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    margin: 20px
+}
+
+@media (max-width: 600px) {
+    .container {
+        border: none;
+        box-shadow: none;
+    }
+    h2 {
+    font-size: 26px;
+  }
+  label, #billamount, #tipForm p {
+    font-size: 18px;
+  }
+  button {
+    font-size: 22px;
+    padding: 6px 10px;
+  }
+  .show {
+    font-size: 20px;
+  }
+}

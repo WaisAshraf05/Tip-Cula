@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Tip Calculator- By Wais </h2>
+
+        <label for="billamount">Enter the Bill Amount: </label>
+        <input type="number" placeholder="from 1-1000000" id="billamount">
+        <form id="tipForm">
+            <p>Select Tip Percentage:</p>
+            <label>
+                <input type="radio" name="tip" value="0.10">
+                10%
+            </label>
+            <label>
+                <input type="radio" name="tip" value="0.15">
+                15%
+            </label>
+            <label>
+                <input type="radio" name="tip" value="0.20">
+                20%
+            </label>
+        </form>
+        <div class="btn"><button id="btn">Calculate Now</button></div>
+        <div class="show">
+            <p>Tip Amount: <span id="tipAmount">0000</span></p>
+            <p>
+                Total Amount: <span id="totalAmount">0000</span></p>
+        </div>
+        <div class="footer">
+            <a href="https://github.com/WaisAshraf05" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:awaisashraf0609@gmail.com" style="margin-right: 15px; color: #D44638;">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/awaisashraf" target="_blank" style="color: #0A66C2;">
+    <i class="fab fa-linkedin"></i>
+</a>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
